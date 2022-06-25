@@ -1,0 +1,18 @@
+# Ignores node package lock
+package-lock.json
+
+#dependencies
+node_modules/
+
+#misc
+.DS_Store
+
+# meilisearch
+data.ms/
+
+# vim buffers
+*.swp
+
+# ignore videos and screenshots
+cypress/screenshots
+cypress/videos
