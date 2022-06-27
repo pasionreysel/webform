@@ -17,7 +17,7 @@ describe("Test WebForm", () => {
         phone: "09195091849",
         dateAvailability: "06/01/2022",
         expectedSalary: "40000",
-        skills: ["Manual Testing", "API Testing", "Automated Testing", ]
+        skills: ["Manual Testing", "API Testing", "Automated Testing" ]
     }
 
     it("Verify if user can submit the form without filling the required fields", () => {
