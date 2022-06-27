@@ -20,7 +20,7 @@ describe("Test WebForm", () => {
         skills: ["Manual Testing", "API Testing", "Automated Testing" ]
     }
 
-    it("Verify if user can submit the form without filling the required fields", () => {
+    it("Verify if user can't submit the form without filling the required fields", () => {
         
         cy.get("#comp-l46hci9a").within(function() {
 
